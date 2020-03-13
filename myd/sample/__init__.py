@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-
+from myd.sample.testdb import _testdb
 
 def _HttpResponse(request):
     return HttpResponse('Hi')

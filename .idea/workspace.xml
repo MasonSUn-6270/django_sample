@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="" />
+    <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/myd/sample/testdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestModel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/sample/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/sample/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -20,6 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z4IR9tiGqyi8Df2QWAvUIKF9Ma" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -60,8 +70,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584110446351</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create model by &#10;'django-admin startapp TestModel'">
+      <created>1584110641077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584110641077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -76,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish setting of DATABASES IN SETTINGS.PY" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish setting of DATABASES IN SETTINGS.PY" />
+    <MESSAGE value="create model by &#10;'django-admin startapp TestModel'" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model by &#10;'django-admin startapp TestModel'" />
   </component>
 </project>

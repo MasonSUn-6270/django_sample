@@ -20,7 +20,8 @@ from myd import sample
 
 rookie_sample = [path(r'hr/', sample._HttpResponse),
                  path(r'render', sample._render),
-                 path(r'extend', sample._extend)
+                 path(r'extend', sample._extend),
+                 path(r'testdb', sample._testdb),
                  ]
 
 urlpatterns = ([path('admin/', admin.site.urls), ]
