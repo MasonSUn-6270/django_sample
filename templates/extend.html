@@ -1,0 +1,8 @@
+{%extends "folder/base.html" %}
+
+{% block mainbody %}
+<p>继承了 base.html 文件</p>
+{% for i in name %}
+<p>{{i}}</p>
+{% endfor %}
+{% endblock %}
