@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1584091929803</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish setting of DATABASES IN SETTINGS.PY">
+      <created>1584110446351</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584110446351</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish setting of DATABASES IN SETTINGS.PY" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish setting of DATABASES IN SETTINGS.PY" />
   </component>
 </project>
