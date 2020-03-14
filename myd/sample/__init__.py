@@ -26,4 +26,4 @@ def _extend(request) -> HttpResponse:
 
 
 def _shortcut(request) -> HttpResponse:
-    return render(request,'folder/shortcut.html',{'foo':['hr','render','extend','testdb_insert','showdbname']})
+    return render(request,'folder/shortcut.html',{'foo':['admin','hr','render','extend','testdb_insert','showdbname']})

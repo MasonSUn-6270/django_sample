@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/folder/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestModel/migrations/0002_contact_tag.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestModel/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestModel/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myd/sample/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/sample/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/sample/testdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/sample/testdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +36,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
@@ -59,6 +58,34 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myd" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestModel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestModel/admin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.admin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -92,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584114050639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成表单">
+      <created>1584164987074</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584164987074</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -119,9 +153,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="finish setting of DATABASES IN SETTINGS.PY" />
     <MESSAGE value="create model by &#10;'django-admin startapp TestModel'" />
     <MESSAGE value="配置app&#10;创建表&#10;$ python manage.py migrate   # 创建表结构&#10;&#10;$ python manage.py makemigrations TestModel  # 让 Django 知道我们在我们的模型有一些变更&#10;$ python manage.py migrate TestModel   # 创建表结构&#10;&#10;执行insert：save" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置app&#10;创建表&#10;$ python manage.py migrate   # 创建表结构&#10;&#10;$ python manage.py makemigrations TestModel  # 让 Django 知道我们在我们的模型有一些变更&#10;$ python manage.py migrate TestModel   # 创建表结构&#10;&#10;执行insert：save" />
+    <MESSAGE value="完成表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成表单" />
   </component>
 </project>
