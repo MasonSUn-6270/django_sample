@@ -1,12 +1,13 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from myd.sample.testdb import _testdb
+from myd.sample.testdb import _testdb, _show_db_usr
 
-def _HttpResponse(request):
+
+def _HttpResponse(request) -> HttpResponse:
     return HttpResponse('Hi')
 
 
-def _render(request):
+def _render(request) -> HttpResponse:
     return render(request=request,
                   template_name='hello.html',
                   context={
@@ -17,8 +18,12 @@ def _render(request):
                   )
 
 
-def _extend(request):
+def _extend(request) -> HttpResponse:
     return render(request=request,
                   template_name='extend.html',
                   context={'name': 'qwerasd', }
                   )
+
+
+def _shortcut(request) -> HttpResponse:
+    return render(request,'folder/shortcut.html',{'foo':['hr','render','extend','testdb_insert','showdbname']})

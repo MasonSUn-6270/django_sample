@@ -21,7 +21,9 @@ from myd import sample
 rookie_sample = [path(r'hr/', sample._HttpResponse),
                  path(r'render', sample._render),
                  path(r'extend', sample._extend),
-                 path(r'testdb', sample._testdb),
+                 path(r'testdb_insert', sample._testdb),
+                 path(r'showdbname', sample._show_db_usr),
+                 path(r'shortcut', sample._shortcut),
                  ]
 
 urlpatterns = ([path('admin/', admin.site.urls), ]
