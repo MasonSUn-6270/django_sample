@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .hide{
+            display:none;
+        }
+
+        .shadow{
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: dodgerblue;
+            opacity: 0.4;
+            z-index: 99;
+        }
+
+        .model{
+            position: fixed;
+            z-index: 100;
+            left: 50%;
+            right: 50%;
+            height: 300px;
+            width: 300px;
+            background-color: floralwhite;
+            margin-left: -200px;
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        function showbox(){
+            document.getElementById("1").classList.remove("hide")
+            document.getElementById("2").classList.remove("hide")
+        }
+    </script>
+    <title>Title</title>
+</head>
+<body>
+<div style="text-align: center;margin: 0 auto;">
+<a onclick="showbox()">click me</a>
+</div>
+<div id="1" class="shadow hide"></div>
+<div id="2" class="model hide">
+    <form action="">
+        <input type="text" placeholder="xxxxx">
+    </form>
+</div>
+</body>
+</html>

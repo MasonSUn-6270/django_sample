@@ -1,4 +1,4 @@
-"""myd URL Configuration
+"""learn_2 URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -15,17 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
-from myd import sample
 
-rookie_sample = [path(r'hr/', sample._HttpResponse),
-                 path(r'render', sample._render),
-                 path(r'extend', sample._extend),
-                 path(r'testdb_insert', sample._testdb),
-                 path(r'showdbname', sample._show_db_usr),
-                 path(r'shortcut', sample._shortcut),
-                 ]
-
-urlpatterns = ([path('admin/', admin.site.urls), ]
-               + rookie_sample
-               )
+urlpatterns = [
+    path('admin/', admin.site.urls),
+]

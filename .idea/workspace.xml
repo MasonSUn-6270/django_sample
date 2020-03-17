@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestModel/migrations/0002_contact_tag.py" afterDir="false" />
+    <list default="true" id="74efa381-775d-4154-bfae-c4f9c26ec262" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/django_sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myd.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestModel/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestModel/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/sample/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/myd/sample/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/migrations/0002_contact_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModel/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/sample/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/sample/testdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myd/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/extend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/folder/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/folder/scatter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/folder/shortcut.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/insert.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +37,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="main urls">
-      <favorite_root url="file://$PROJECT_DIR$/myd/urls.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-      <favorite_root url="file://$PROJECT_DIR$/myd/sample/testdb.py" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-    </favorites_list>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -31,21 +47,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Z4IR9tiGqyi8Df2QWAvUIKF9Ma" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1ZFQw4C1yyhSml5D2QsAQ6Ojl5l" />
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\django_sample\templates" />
-      <recent name="F:\django_sample\myd\templates\folder" />
-      <recent name="F:\django_sample\myd" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,105 +64,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="myd" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestModel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestModel/admin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.admin" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4d1547f-3659-4668-a91e-64ce5ac87916" name="Default Changelist" comment="" />
-      <created>1584091929803</created>
+      <changelist id="74efa381-775d-4154-bfae-c4f9c26ec262" name="Default Changelist" comment="" />
+      <created>1584432598985</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584091929803</updated>
+      <updated>1584432598985</updated>
     </task>
-    <task id="LOCAL-00001" summary="finish setting of DATABASES IN SETTINGS.PY">
-      <created>1584110446351</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1584110446351</updated>
-    </task>
-    <task id="LOCAL-00002" summary="create model by &#10;'django-admin startapp TestModel'">
-      <created>1584110641077</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1584110641077</updated>
-    </task>
-    <task id="LOCAL-00003" summary="配置app&#10;创建表&#10;$ python manage.py migrate   # 创建表结构&#10;&#10;$ python manage.py makemigrations TestModel  # 让 Django 知道我们在我们的模型有一些变更&#10;$ python manage.py migrate TestModel   # 创建表结构&#10;&#10;执行insert：save">
-      <created>1584114050639</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1584114050639</updated>
-    </task>
-    <task id="LOCAL-00004" summary="完成表单">
-      <created>1584164987074</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1584164987074</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finish setting of DATABASES IN SETTINGS.PY" />
-    <MESSAGE value="create model by &#10;'django-admin startapp TestModel'" />
-    <MESSAGE value="配置app&#10;创建表&#10;$ python manage.py migrate   # 创建表结构&#10;&#10;$ python manage.py makemigrations TestModel  # 让 Django 知道我们在我们的模型有一些变更&#10;$ python manage.py migrate TestModel   # 创建表结构&#10;&#10;执行insert：save" />
-    <MESSAGE value="完成表单" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成表单" />
   </component>
 </project>
