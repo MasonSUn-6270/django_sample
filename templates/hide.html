@@ -31,11 +31,16 @@
             text-align: center;
         }
     </style>
-<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
     <script>
         function showbox() {
             document.getElementById("1").classList.remove("hide")
             document.getElementById("2").classList.remove("hide")
+        }
+
+        function CancelModel(){
+            document.getElementById("1").classList.add("hide")
+            document.getElementById("2").classList.add("hide") 
         }
 
         function AjaxSend() {
@@ -43,13 +48,19 @@
             $.ajax({
                 url: '/post_ajax/',
                 type: "POST",
-                data: { 'title': $('#title').val() ,
-                csrfmiddlewaretoken: '{{ csrf_token }}'        // 添加这句
-            },
+                data: {
+                    'title': $('#title').val(),
+                    csrfmiddlewaretoken: '{{ csrf_token }}'        // 添加这句
+                },
                 success: function (data) {
-                    //处理完成自动调用
-                    //data=返回值
+
                     console.log(data);
+                    if (data == 'okokok') {
+                        location.href="/admin/"
+                    }  else {
+                        $('#errormsg').text(data)
+                        alert('宁配吗？！弟弟')
+                    }
                 }
             })
         }
@@ -64,10 +75,12 @@
     <div id="1" class="shadow hide"></div>
     <div id="2" class="model hide">
 
-            
-            <span>please input 'love'</span>
-            <input type="text" id="title" placeholder="xxxxx">
-            <input type="button" value="go" onclick="AjaxSend()">
+
+        <span>please input 'love'</span>
+        <input type="text" id="title" placeholder="xxxxx">
+        <input type="button" value="go" onclick="AjaxSend()">
+        <input type="button" value="我滚了" onclick="CancelModel()">
+        <p><span id="errormsg"></span>
 
     </div>
 </body>

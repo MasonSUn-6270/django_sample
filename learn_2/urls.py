@@ -27,10 +27,12 @@ cursor = conn.cursor()
 def aj0(request):
     k = request.POST.get('title')
     print(k)
-    if k :
-        cursor.execute("insert into tmp values (%s)",[k])
+    if k == 'love':
+        cursor.execute("insert into tmp values (%s)", [k])
         conn.commit()
-    return HttpResponse('okokok')
+        return HttpResponse('okokok')
+    else:
+        return HttpResponse('hehe')
 
 def aj1(request):
     return render(request, 'hide.html')

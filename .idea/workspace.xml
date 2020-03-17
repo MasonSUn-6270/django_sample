@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74efa381-775d-4154-bfae-c4f9c26ec262" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_2/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/hide.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hide.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +57,25 @@
       <option name="project" value="LOCAL" />
       <updated>1584439207109</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=" 通过input 的id属性传值&#10; &#10; data: { 'title': $('#title').val() ,">
+      <created>1584440765208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584440765208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -74,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajax 提交表单&#10;引入jar包&#10;调用$.ajax,data传入{csrf_token}&#10;&#10;&#10;        function AjaxSend() {&#10;&#10;            $.ajax({&#10;                url: '/post_ajax/',&#10;                type: &quot;POST&quot;,&#10;                data: { 'title': 'hello' ,&#10;                csrfmiddlewaretoken: '{{ csrf_token }}'        // 添加这句&#10;            },&#10;                success: function (data) {&#10;                    //处理完成自动调用&#10;                    //data=返回值&#10;                    console.log(data);&#10;                }&#10;            })&#10;        }" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajax 提交表单&#10;引入jar包&#10;调用$.ajax,data传入{csrf_token}&#10;&#10;&#10;        function AjaxSend() {&#10;&#10;            $.ajax({&#10;                url: '/post_ajax/',&#10;                type: &quot;POST&quot;,&#10;                data: { 'title': 'hello' ,&#10;                csrfmiddlewaretoken: '{{ csrf_token }}'        // 添加这句&#10;            },&#10;                success: function (data) {&#10;                    //处理完成自动调用&#10;                    //data=返回值&#10;                    console.log(data);&#10;                }&#10;            })&#10;        }" />
+    <MESSAGE value=" 通过input 的id属性传值&#10; &#10; data: { 'title': $('#title').val() ," />
+    <option name="LAST_COMMIT_MESSAGE" value=" 通过input 的id属性传值&#10; &#10; data: { 'title': $('#title').val() ," />
   </component>
 </project>
