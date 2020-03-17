@@ -15,7 +15,30 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.http import HttpResponse
+from django.shortcuts import render, redirect
+import pymysql
+
+account = ("localhost", "root", 'sjh920813', 'ss')
+conn = pymysql.connect(*account)
+cursor = conn.cursor()
+
+
+def aj0(request):
+    k = request.POST.get('title')
+    print(k)
+    if k :
+        cursor.execute("insert into tmp values (%s)",[k])
+        conn.commit()
+    return HttpResponse('okokok')
+
+def aj1(request):
+    return render(request, 'hide.html')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('post_ajax/', aj0),
+    path('test_ajax_input/', aj1),
+
 ]

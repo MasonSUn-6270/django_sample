@@ -2,34 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74efa381-775d-4154-bfae-c4f9c26ec262" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/django_sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/myd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/migrations/0002_contact_tag.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestModel/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/sample/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/sample/testdb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myd/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/extend.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/folder/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/folder/scatter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/folder/shortcut.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn_2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/learn_2/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/hide.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/hide.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +58,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
